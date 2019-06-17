@@ -9,13 +9,13 @@ export interface User {
     dateofbirth: Date;
     gender: string;
     created: Date;
-    lastactive?: Date;
+    lastactive: Date;
     photoUrl: string;
     city: string;
     country: string;
-    interests?: string;
+    interests: string;
     introduction?: string;
-    lookingFor?: string;
-    photos?: Photo[];
+    lookingFor: string;
+    photos: Photo[];
 
 }
